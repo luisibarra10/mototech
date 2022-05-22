@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Principal</title>
+     <!--Bootstrap-->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ <!--CSS-->
+ <link rel="stylesheet" href="./PrincipalMain.css">
+ <!--Fond Awesome-->
+ <script src="https://kit.fontawesome.com/1cf5a60052.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+   
+    <div  class="container-fluid">
+        <div class="row flex-nowrap">
+            <div  id="MenuLateral"class="col-2">
+                <div class="container d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+                   
+                        <div id="DivLogo"class="row justify-content-center-fluid" >
+                            <img  id="ImagenLogo"src="./ImgPrincipalMain/Logo azul.png" alt="" >
+                            <img id="ImageNombre"src="./ImgPrincipalMain/Nombre naranja.png" alt="">
+                        </div>
+          
+                    <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link align-middle px-0">
+                                <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Inicio</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline">Consultar Falla</span> </a>
+                            
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">Historial</span></a>
+                        </li>
+                       
+                    </ul>
+                    <hr>
+                    <div id="dropdownUser1" class="dropdown pb-4 ">
+                        <a id="botonUsuario" href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"  data-bs-toggle="dropdown" aria-expanded="false">
+                           
+                            <i  id="LogoUsuario" class="fa-solid fa-user"  width="30" height="30" ></i>
+                            <span  id="SpanUsuario"class="d-none d-sm-inline mx-1">usuario</span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                            <li><a class="dropdown-item" href="#">Configuracion</a></li>
+                            <li><a class="dropdown-item" href="#">Mi perfil</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Cerrar Sesion</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="FondoMenu"class="col py-3"> <!--Div espacio de informacion  derecho-->
+                
+
+         <div class="row justify-content-center"  >
+
+                <div id="DivMenu"  class="col-10">
+
+                    <form class="row g-5">
+                        <div>
+                            <h2  id="NombreBotones"> Seleccionar el servicio</h2>
+                            
+                        </div>
+                            <a  href="./ConsultarFalla/ConsultarFalla.html" id="BotonConsulta"class="col">
+                                 
+                                
+                                         <img src="./ImgPrincipalMain/ConsultaDeErrores.png"  height="100" alt="">
+                                         <h5 id="NombreBotones">Consulta de Errores</h5>
+                                
+                            </a>
+                            <a  href="./" id="BotonRegistro" class="col">
+                                 
+                                <img src="./ImgPrincipalMain/Registro de datos.png"  height="100" alt="">
+                                <h5  id="NombreBotones">Registro de datos</h5>
+                                
+                            </a>
+                     
+                    </form>
+                </div>
+              
+
+            </div>
+            </div>
+        </div>
+    </div>
+
+        <!--JS-->
+ <script src="./PrincipalMain.js" ></script>
+</body>
+</html>

@@ -1,0 +1,151 @@
+body{
+    background-image: url(./ImgLogin/fondo_login.jpg);
+    background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  height: 100vh;
+
+}
+nav{
+    background-color: rgba(141, 141, 141, 0.562);
+   
+}
+ #FondoOscuro{
+    background-color: rgba(141, 141, 141, 0.562);
+    width: 100%;
+    height: 90%;
+    position: absolute;
+     
+ }
+
+
+#DivLogin{
+background-color:rgba(255, 251, 251, 0.349);
+border-radius: 3%;
+backdrop-filter: blur(2px);
+text-align: center;
+padding: 2%;
+
+}
+
+#DivLogin h2{
+    color: rgb(85, 32, 136);
+}
+#DivLogin h5{
+    color: rgb(56, 55, 56);
+}
+#TextOlvidasteTuContraseña{
+    color: rgb(56, 55, 56);
+   
+}
+#DivLogin button,#btnIngresar{
+    background-color:rgb(72, 45, 87);
+    border-color: none;
+    color: #ffff;
+    margin-left: 3%;
+}
+#DivLogin button:hover,#btnIngresar:hover{
+    box-shadow: 0 12px 16px rgb(72, 45, 87);
+    transform:translateY(-5px);
+}
+#DivLogin input{
+    background-color:transparent;
+    border: none;
+   
+        margin-bottom: 2rem;
+        background-color:transparent;
+        border: none;
+        border-bottom: rgb(72, 45, 87) thin solid;
+        
+       
+        outline: none;
+    }
+
+    #DivLogin Input:hover{
+        box-shadow: 0 1px 30px rgb(72, 45, 87);
+        transform:translateY(-1px);
+    }
+
+
+
+
+/*Div registro */
+#DivRegistro{
+   
+background-color:rgba(255, 251, 251, 0.349);
+border-radius: 3%;
+backdrop-filter: blur(2px);
+text-align: center;
+padding: 2%;
+margin-left: 1%;
+display: none;
+
+    
+    
+    
+    }
+    #DivRegistro h2{
+        color: rgb(85, 32, 136);
+    }
+    #DivRegistro h5{
+        color: rgb(56, 55, 56);
+    }
+    #DivRegistro a{
+        color: rgb(56, 55, 56);
+       
+    }
+    #DivRegistro button{
+       
+        border-color: none;
+        color: #ffff;
+        border-bottom: white thin solid;
+        background-color:rgb(72, 45, 87);
+        text-align: center;
+        outline: none;
+        padding: .2rem e;
+        font-size: .9rem;
+       
+
+    }
+    #DivRegistro input{
+        width: 70%;
+        display: block;
+        margin: auto;
+        margin-bottom: 2rem;
+        background-color:transparent;
+        border: none;
+        border-bottom: rgb(72, 45, 87) thin solid;
+        
+        text-align: center;
+        outline: none;
+        padding: .2rem e;
+        font-size: .9rem;
+        color: rgb(72, 45, 87);
+        
+    }
+    #DivRegistro select{
+        width: 70%;
+        display: block;
+        margin: auto;
+        margin-bottom: 2rem;
+        background-color:transparent;
+        border: none;
+        border-bottom: rgb(72, 45, 87) thin solid;
+        
+        text-align: center;
+        outline: none;
+        padding: .2rem e;
+        font-size: .9rem;
+        color: rgba(56, 55, 56, 0.466);
+    }
+    #DivRegistro button:hover{
+        box-shadow: 0 12px 16px rgb(72, 45, 87);
+        transform:translateY(-5px);
+    }
+    #DivRegistro option{
+        background-color:rgba(99, 99, 99, 0.274);
+        backdrop-filter: blur(2px);
+    }
+
+   
+    

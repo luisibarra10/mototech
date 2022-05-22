@@ -1,0 +1,140 @@
+#MenuLateral{
+    
+    background: #171818;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #151d25, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #131a22, #7d8285); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+    color: #ffff;
+}
+#texto:hover{
+
+    transform:translateY(-4px);
+    box-shadow: 1px 1px 1px 1px rgb(72, 45, 87);
+}
+#MenuLateral i, #MenuLateral a{
+    color: white;
+}
+
+#MenuLateral i:hover, #MenuLateral a:hover{
+        color: rgb(110, 11, 240);
+        border-style: #fff;
+       
+}
+
+/* Navbar en el campo principal */
+#NavbarColor{
+    margin-left:-1.5%;
+    width:auto;
+    height: 60px;
+    background-color: rgb(56, 21, 95);
+   
+}
+
+
+ /* Navbar en el campo del menu izquierdo */
+#ColorNavbar2{
+    margin-top: -5%;
+    margin-left: -20%;
+    width: 150%;
+    height:60px;
+    background-color: rgba(62, 19, 112, 0.705);
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+/* Logo en el menu izquierdo */ 
+#ImagenLogo{
+    width: 20%;
+    height: auto;
+}
+/* Nombre logo en el menu izquierdo */ 
+#ImageNombre{
+    margin-top: 5%;
+    width: 70%;
+    height: auto;
+}
+
+/* Espacio en donde ira el nombre del menu seleccionado */ 
+#NavbarTitulo{
+    width: auto;
+    margin-left: -1%;
+    height: 70px;
+    background-color: #f8f8f8;
+    padding: 1%;
+}
+ /* Campo total en donde se encuentra la informacion */ 
+#DivInformacion{
+    background-color: #b8b5b5;
+}
+#img{
+    float:left;
+    margin-right: 1%;
+}
+#DivInformacionMuestradeDatos{
+    background-color: #ffff;
+    height: auto;
+    width: 96%;
+    margin: 3%;
+    border-radius: 1%;
+    padding: 2%;
+
+}
+#rowMuestradeDataos{
+
+    text-align: center;
+
+    background-color: #b8b5b5;
+    padding: 1%;
+}
+
+
+#Espacionbtn{
+
+    text-align: center;
+}
+
+#btnIngresar{
+
+    border-color: none;
+    color: #ffff;
+    border-bottom: white thin solid;
+    background-color:rgb(72, 45, 87);
+  
+    outline: none;
+    padding: .2rem e;
+    font-size: .9rem;
+
+}
+#campoSelectFalla{
+  
+    
+    
+    }
+
+   #ColButton1{
+    
+       text-align: center;
+      
+       width: 50%;
+
+
+
+          
+background-color:rgba(255, 251, 251, 0.815);
+border-radius: 3%;
+backdrop-filter: blur(2px);
+
+
+
+
+
+    
+   }
+
+   #ColButton2{
+    
+     text-align: center;
+  
+     width: 50%;
+   }
